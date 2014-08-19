@@ -1,0 +1,44 @@
+{
+  "devDependencies": {
+    "coffee-script": "*",
+    "lodash": "*",
+    "vinyl-source-stream": "*",
+    "streamqueue": "*",
+    "merge-stream": "*",
+    "event-stream": "*",
+    "browser-sync": "*",
+    "marked": "*",
+    "run-sequence": "*",
+    "require-dir": "*",
+    
+    "bower": "*",
+    "browserify": "*",
+    "coffeeify": "*",
+    "debowerify": "*",
+    
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-base64": "*",
+    "gulp-changed": "*",
+    "gulp-coffee": "*",
+    "gulp-coffeelint": "*",
+    "gulp-concat": "*",
+    "gulp-consolidate": "*",
+    "gulp-cssimport": "*",
+    "gulp-csslint": "*",
+    "gulp-iconfont": "*",
+    "gulp-less": "*",
+    "gulp-minify-css": "*",
+    "gulp-notify": "*",
+    "gulp-rename": "*",
+    "gulp-replace": "*",
+    "gulp-sketch": "*",
+    "gulp-streamify": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "private": true
+}
