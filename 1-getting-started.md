@@ -199,11 +199,11 @@ $ gulp style
 
 If it works, there should now be a file called `style.min.css` in the `dist/` folder.
 
-### gulp.task(<task name>, <function>)
+### gulp.task(`task_name`, `function`)
 
 The specified task will use this function. Since the task name is specified from the command line, it can't include spaces, but other than that, naming is relatively unrestricted. You aren't even limited to English characters; you could write something like "整形と圧縮" in Japanese and it would still be fine.
 
-You can also write this using the format `gulp.task(<task name>, <dependent task name>,...], <function>)`, and the main task will be executed only after the dependent task has been executed. For example, you can make it "deploy" but only after doing "coffee" and "css". <cf. 公式ドキュメント>
+You can also write this using the format `gulp.task(<task name>, <dependent task name>,...], <function>)`, and the main task will be executed only after the dependent task has been executed. For example, you can make it "deploy" but only after doing "coffee" and "css". [cf. Official Doc](https://github.com/gulpjs/gulp/blob/master/docs/API.md#gulptaskname-deps-fn)
 
 ### gulp.src(<specified file>)
 
@@ -218,9 +218,9 @@ glob example | meaning
 `'!src/not-me.css'` | Exclude 'not-me.css'
 
 
-Also note that the path is specified relative to the root folder of the project. <cf. 公式ドキュメント>
+Also note that the path is specified relative to the root folder of the project. [cf. Official Doc](https://github.com/gulpjs/gulp/blob/master/docs/API.md#gulpsrcglobs-options)
 
-### gulp.dest(<output path>)
+### gulp.dest(`path`)
 
 Just like `gulp.src`, the folder to be output to is specified with a relative path name. If the project folder is located at `/Users/osscafe/my-project/`, it'll be saved as shown below.
 
@@ -231,11 +231,11 @@ Ex. `'./'` | `/Users/osscafe/my-project/`
 Ex. `'dist/'`| `/Users/osscafe/my-project/dist/`
 
 
-### .pipe(<function>)
+### .pipe(`function`)
 
 `gulp.src` and plugins will always return a stream (or a buffer). The `pipe` command is the same as a `|` in Unix, and literally connects one command to the next.
 
-For example, saying `.pipe(rename({ extname: '.min.css' }))` can be read as, "Pipe to the `rename` plugin and add the option to make the extension .min.css." Consult the page for each plugin to see more information on these options. <cf. gulp-rename>
+For example, saying `.pipe(rename({ extname: '.min.css' }))` can be read as, "Pipe to the `rename` plugin and add the option to make the extension .min.css." Consult the page for each plugin to see more information on these options. [cf. gulp-rename](https://www.npmjs.org/package/gulp-rename)
 
 ## Automatic execution with gulp.watch
 
@@ -247,4 +247,4 @@ gulp.task('watch', function() {
 });
 ```
 
-If you execute the `gulp watch` command with this in place, your files will be compiled every time they are saved, so you won't have to type the commands to do it every time.
+If you execute the `gulp watch` command with this in place, your files will be compiled every time they are saved, so you won't have to type the commands to do it every time. [cf. Official Doc](https://github.com/gulpjs/gulp/blob/master/docs/API.md#gulpwatchglob--opts-tasks-or-gulpwatchglob--opts-cb)
