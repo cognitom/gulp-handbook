@@ -64,9 +64,9 @@ Go to the following URL to install it.
 - http://nodejs.org/
 
 
-> ### Tips: -g option, and sudo
+> ### Tips: npm -g option, and sudo
 > 
-> If you're using the official Node.js installer, you'll need to use `sudo` if you want to use the `-g` option. Be careful, because in many cases the information published online says nothing about `sudo`.
+> If you're using the official Node.js installer, you'll need to use `sudo` if you want to use `npm` with the `-g` option. Be careful, because in many cases the information published online says nothing about `sudo`.
 > 
 > However, if you installed it using [nodebrew](https://github.com/hokaccha/nodebrew), even on a Mac, you won't need to use `sudo` for every little thing. In general, whenever you use Node.js, even if it's not for gulp.js, I recommend using `nodebrew`.
 
