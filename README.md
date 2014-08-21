@@ -2,7 +2,7 @@
 
 [gulp.js](http://gulpjs.com/) is "The streaming build system" that releases you from menial jobs in your front-end development.
 
-This handbook is designed to help you learn gulp.js, understand best practices and start automation in front-end development.It is written in hopes that a wide range of users, not limited to programmers, will read and benefit from it.
+This handbook is designed to help you learn gulp.js, understand best practices and start automation in front-end development. It is written in hopes that a wide range of users, not limited to programmers, will read and benefit from it.
 
 Originally, I wrote [the article in Japanese](http://codezine.jp/article/detail/7992). But I'd likes to share it as an open source in English. My friends and gengo.com help me well, but my English skill is still limited. So any [suggestion](https://github.com/cognitom/gulp-handbook/pulls) and [comments](https://github.com/cognitom/gulp-handbook/issues) are welcome. Let's make this book together :-)
 
