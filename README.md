@@ -6,7 +6,7 @@ This handbook is designed to help you learn gulp.js, understand best practices a
 
 Originally, I wrote [the article in Japanese](http://codezine.jp/article/detail/7992). But I'd likes to share it as an open source in English. My friends and gengo.com help me well, but my English skill is still limited. So any [suggestion](https://github.com/cognitom/gulp-handbook/pulls) and [comments](https://github.com/cognitom/gulp-handbook/issues) are welcome. Let's make this book together :-)
 
-## Update
+#### Update
 
 - Aug 21, 2014: The first chapter released.
 
@@ -39,3 +39,12 @@ Originally, I wrote [the article in Japanese](http://codezine.jp/article/detail/
 - Browserify
 - BrowserSync
 - Unix Commands
+
+## Recipes
+
+The recipes in this handbook are maintained in [another repo](https://github.com/cognitom/gulp-handbook-recipes).
+
+| No. | Title | gulp.js Plugins / Modules | DL |
+| :--: | :-- | :-- | :-- | :-- |
+| 01 | [Coffee Photos](recipe/01-coffee-photos/) | coffee, concat, uglify | [zip](https://github.com/cognitom/gulp-handbook-recipes/raw/master/download/01-coffee-photos.zip) |
+| 02 | [Hello gulp.js](recipe/02-hello-gulp) | cssimport, autoprefixer, minify-css, rename | [zip](https://github.com/cognitom/gulp-handbook-recipes/raw/master/download/02-hello-gulp.zip) |
