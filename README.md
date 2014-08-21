@@ -1,16 +1,19 @@
 # gulp.js Handbook
 
-## Series
+[gulp.js](http://gulpjs.com/) is "The streaming build system" that releases you from menial jobs in your front-end development.
 
-0. First, let’s make it work
-0. Why so fast?
-0. Try Google's "Web Fundamentals"
-0. Recipes with 20 useful plugins
-0. Tasks and streams
-0. gulp.js without plugins
+This handbook is designed to help you learn gulp.js, understand best practices and start automation in front-end development.It is written in hopes that a wide range of users, not limited to programmers, will read and benefit from it.
+
+Originally, I wrote [the article in Japanese](http://codezine.jp/article/detail/7992). But I'd likes to share it as an open source in English. My friends and gengo.com help me well, but my English skill is still limited. So any [suggestion](https://github.com/cognitom/gulp-handbook/pulls) and [comments](https://github.com/cognitom/gulp-handbook/issues) are welcome. Let's make this book together :-)
+
+## Update
+
+- Aug 21, 2014: The first chapter released.
 
 
-## [1. Getting Started](1-getting-started.md)
+## Index
+
+### [1. First, let’s make it work](1-getting-started.md)
 
 - What is gulp.js?
 - Installing Node.js
@@ -19,18 +22,18 @@
 - gulpfile.js is a recipe for tasks
 - Automatic execution with gulp.watch
 
-## [2. Why So Fast?](2-why-so-fast.md)
+### 2. Why so fast?
 
 - Differences between gulp.js and Grunt
 - Stream and Non-blocking
 
-## [3. Try Google's "Web Fundamentals"](3-web-fundamentals.md)
+### 3. Try Google's "Web Fundamentals"
 
-## [4. Recipes with 20 Useful Plugins](4-recipes-with-20-plugins.md)
+### 4. Recipes with 20 useful plugins
 
-## [5. Tasks and Streams](5-tasks-and-streams.md)
+### 5. Tasks and streams
 
-## [6. gulp.js without Plugins](6-gulp-without-plugin.md)
+### 6. gulp.js without plugins
 
 - Bower
 - Browserify
