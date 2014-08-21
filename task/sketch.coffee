@@ -2,7 +2,7 @@ gulp   = require 'gulp'
 sketch = require 'gulp-sketch'
 
 SRC  = 'src/sketch'
-DIST = 'src/image'
+DIST = 'dist/image'
 
 gulp.task 'sketch', ->
   gulp.src "#{SRC}/*.sketch"

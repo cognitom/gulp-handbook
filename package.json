@@ -1,41 +1,26 @@
 {
+  "name": "gulp-handbook",
+  "version": "0.0.1",
+  "homepage": "https://github.com/cognitom/gulp-handbook",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cognitom/gulp-handbook.git"
+  },
+  "description": "A little handbook for gulp.js",
+  "keywords": [
+    "gulp"
+  ],
+  "author": "Tsutomu Kawamura <tsutomu@librize.com>",
+  "license": "CC-BY 4.0",
   "devDependencies": {
     "coffee-script": "*",
-    "lodash": "*",
-    "vinyl-source-stream": "*",
-    "streamqueue": "*",
-    "merge-stream": "*",
-    "event-stream": "*",
-    "browser-sync": "*",
-    "marked": "*",
     "run-sequence": "*",
     "require-dir": "*",
     
-    "bower": "*",
-    "browserify": "*",
-    "coffeeify": "*",
-    "debowerify": "*",
-    
     "gulp": "*",
-    "gulp-autoprefixer": "*",
-    "gulp-base64": "*",
-    "gulp-changed": "*",
-    "gulp-coffee": "*",
-    "gulp-coffeelint": "*",
-    "gulp-concat": "*",
-    "gulp-consolidate": "*",
-    "gulp-cssimport": "*",
-    "gulp-csslint": "*",
-    "gulp-iconfont": "*",
-    "gulp-less": "*",
-    "gulp-minify-css": "*",
-    "gulp-notify": "*",
-    "gulp-rename": "*",
-    "gulp-replace": "*",
-    "gulp-sketch": "*",
-    "gulp-streamify": "*",
-    "gulp-uglify": "*",
-    "gulp-util": "*"
+    "gulp-image-resize": "*",
+    "gulp-imagemin": "*",
+    "gulp-sketch": "*"
   },
   "engines": {
     "node": ">=0.10.0"

@@ -2,22 +2,22 @@
 
 ## Series
 
-0. Getting Started
-0. Why So Fast?
+0. First, let’s make it work
+0. Why so fast?
 0. Try Google's "Web Fundamentals"
-0. Recipes with 20 Useful Plugins
-0. Tasks and Streams
-0. gulp.js without Plugins
+0. Recipes with 20 useful plugins
+0. Tasks and streams
+0. gulp.js without plugins
 
 
 ## [1. Getting Started](1-getting-started.md)
 
-- What is gulp?
-- Install Node.js
-- Install gulp.js
-- Write plugins names to package.json
-- Your first gulpfile.js
-- Watch files automatically
+- What is gulp.js?
+- Installing Node.js
+- Installing gulp.js
+- Writing gulp.js plugins to package.json
+- gulpfile.js is a recipe for tasks
+- Automatic execution with gulp.watch
 
 ## [2. Why So Fast?](2-why-so-fast.md)
 
