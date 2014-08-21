@@ -46,5 +46,5 @@ The recipes in this handbook are maintained in [another repo](https://github.com
 
 | No. | Title | gulp.js Plugins / Modules | DL |
 | :--: | :-- | :-- | :-- | :-- |
-| 01 | [Coffee Photos](https://github.com/cognitom/gulp-handbook-recipes/recipe/01-coffee-photos/) | coffee, concat, uglify | [zip](https://github.com/cognitom/gulp-handbook-recipes/raw/master/download/01-coffee-photos.zip) |
-| 02 | [Hello gulp.js](https://github.com/cognitom/gulp-handbook-recipes/recipe/02-hello-gulp) | cssimport, autoprefixer, minify-css, rename | [zip](https://github.com/cognitom/gulp-handbook-recipes/raw/master/download/02-hello-gulp.zip) |
+| 01 | [Coffee Photos](https://github.com/cognitom/gulp-handbook-recipes/tree/master/recipe/01-coffee-photos) | coffee, concat, uglify | [zip](https://github.com/cognitom/gulp-handbook-recipes/raw/master/download/01-coffee-photos.zip) |
+| 02 | [Hello gulp.js](https://github.com/cognitom/gulp-handbook-recipes/tree/master/recipe/02-hello-gulp) | cssimport, autoprefixer, minify-css, rename | [zip](https://github.com/cognitom/gulp-handbook-recipes/raw/master/download/02-hello-gulp.zip) |
