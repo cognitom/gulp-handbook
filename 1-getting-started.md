@@ -22,11 +22,11 @@ When you need to execute multiple processes in a row, a single command is clearl
 
 ```javascript
 gulp.task('coffee', function(){
-return gulp.src('src/*.coffee') // Read the file from the `src` folder
-.pipe(coffee()) // 1. Compile CoffeeScript
-.pipe(concat()) // 2. Combine multiple files into one
-.pipe(uglify()) // 3. Minify (uglify) the JavaScript
-.pipe(gulp.dest('dist/')); // Save to the `dist` folder
+  return gulp.src('src/*.coffee') // Read the file from the `src` folder
+    .pipe(coffee()) // 1. Compile CoffeeScript
+    .pipe(concat()) // 2. Combine multiple files into one
+    .pipe(uglify()) // 3. Minify (uglify) the JavaScript
+    .pipe(gulp.dest('dist/')); // Save to the `dist` folder
 });
 ```
 
