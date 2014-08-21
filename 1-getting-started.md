@@ -203,9 +203,9 @@ If it works, there should now be a file called `style.min.css` in the `dist/` fo
 
 The specified task will use this function. Since the task name is specified from the command line, it can't include spaces, but other than that, naming is relatively unrestricted. You aren't even limited to English characters; you could write something like "整形と圧縮" in Japanese and it would still be fine.
 
-You can also write this using the format `gulp.task(<task name>, <dependent task name>,...], <function>)`, and the main task will be executed only after the dependent task has been executed. For example, you can make it "deploy" but only after doing "coffee" and "css". [cf. Official Doc](https://github.com/gulpjs/gulp/blob/master/docs/API.md#gulptaskname-deps-fn)
+You can also write this using the format `gulp.task(<task name>, [<dependent task name>,...], <function>)`, and the main task will be executed only after the dependent task has been executed. For example, you can make it "deploy" but only after doing "coffee" and "css". [cf. Official Doc](https://github.com/gulpjs/gulp/blob/master/docs/API.md#gulptaskname-deps-fn)
 
-### gulp.src(<specified file>)
+### gulp.src(`specified_file`)
 
 When specifying the desired file, use a glob string. The following patterns are commonly used for this, and these arrays are perfectly valid.
 
