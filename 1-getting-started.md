@@ -41,9 +41,9 @@ This way, gulp.js puts multiple processes together into one "recipe." All you ha
 In this article, I will take you from installing gulp.js to actually giving it a spin. Feel free to follow along and experience the simplicity and convenience of gulp.js. (This article assumes you're using Mac OS X 10.9)
 
 > ### Tips: gulp.js and Node.js
-> 
+>
 > gulp.js uses Node.js as its execution environment, just like most contemporary front-end tools. The "recipe" made by gulp.js is written as a file called `gulpfile.js`, and inside it you can assemble not only plugins for gulp.js, but also modules for Node.js]]. As seen in the figure below, instances of popular tools such as [Browserify](http://browserify.org/) and [BrowserSync](http://www.browsersync.io/) used in tandem with gulp.js are being seen more and more.
-> 
+>
 > ![environment](dist/image/environment.png)
 
 ## Installing Node.js
@@ -65,9 +65,9 @@ Go to the following URL to install it.
 
 
 > ### Tips: npm -g option, and sudo
-> 
+>
 > If you're using the official Node.js installer, you'll need to use `sudo` if you want to use `npm` with the `-g` option. Be careful, because in many cases the information published online says nothing about `sudo`.
-> 
+>
 > However, if you installed it using [nodebrew](https://github.com/hokaccha/nodebrew), even on a Mac, you won't need to use `sudo` for every little thing. In general, whenever you use Node.js, even if it's not for gulp.js, I recommend using `nodebrew`.
 
 ## Installing gulp.js
@@ -94,16 +94,16 @@ When you execute this, it'll spit out two version numbers, one for `CLI` and one
 The reason the second line comes up `undefined` is because gulp.js hasn't been installed in the current folder. Really, all the CLI version does is run the local gulp.js, so let's set up the local environment for gulp, using the following steps.
 
 > ### Tips: Globals and locals
-> 
+>
 If you aren't used to Node.js, you may be puzzled at first by the concept of "locals".
 > In Node.js, if you install without using the `-g` option, all modules get saved in a "local" folder (the `node_modules` folder). If done this way, you won't be able to use these modules from any other folder.
-> 
+>
 > ```bash
 > $ npm install gulp-concat --save-dev
 > ```
-> 
+>
 > If you use this command, `gulp-concat` will be added to `devDependencies` in `package.json`. Once you've manually written it into 'package.json', it'll effectively be the same as if you'd done an `npm install`.
-> 
+>
 > On the other hand, when installed using the `-g` option, `gulp` commands can be used from anywhere (globally).
 
 ## Writing gulp.js plugins to package.json
@@ -138,7 +138,7 @@ As the default for Node.js, essential modules, including `gulp` files for local 
 }
 ```
 
-Here, `gulp` alone refers to a locally used gulp.js, and the other lines that start with `gulp-` are plugins. There are currently over 700 plugins publicly available, so this is just a small portion of them. Plugins can be found by searching the <plugin page on the official site.> Also, the parts written as a `"*"` can be replaced with a specific version number. If you leave it as `"*"`, the newest version will be used.
+Here, `gulp` alone refers to a locally used gulp.js, and the other lines that start with `gulp-` are plugins. There are currently over 700 plugins publicly available, so this is just a small portion of them. Plugins can be found by searching the <a href="http://gulpjs.com/plugins/">plugin page on the official site.</a> Also, the parts written as a `"*"` can be replaced with a specific version number. If you leave it as `"*"`, the newest version will be used.
 
 
 Plugin name | what it does
